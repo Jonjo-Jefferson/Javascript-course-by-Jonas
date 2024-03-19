@@ -19,8 +19,8 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.number').textContent = secretNumber;
 
     if (score > highScore) {
-      highScore = score;
-      document.querySelector('.highscore').textContent = highScore;
+      highScore = score;z
+      document.querySelector('.highscore').textContent = highScore
     }
 
     // Guess too high
